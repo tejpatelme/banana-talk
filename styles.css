@@ -48,6 +48,7 @@ textarea {
     min-height: 10vh;
     max-height: 20vh;
 }
+
 /* navigations */
 .navigation {
     background-color: var(--back-color);
@@ -73,14 +74,17 @@ textarea {
 button {
     border: none;
     padding: 16px;
-    background-color: var(--back-color);
+    background-color: #E4E462;
     font-size: 18px;
     font-family: inherit;
-    color : var(--text-color);
+    color :var(--text-color);
     margin-top: 12px;
     margin-bottom: 24px;
 }
 
+button:hover {
+    background-color: var(--back-color);
+}
 
 /* footer */
 
@@ -96,4 +100,5 @@ footer {
 footer p{
     max-width: 600px;
     margin: auto;
+    line-height: 22px;
 }
