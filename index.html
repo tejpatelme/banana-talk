@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Talk</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <nav>
-        <div>
-            <h2>Banana Talk</h2>
+    <nav class="navigation">
+        <div class="heading">
+            <img src="images/Minions.png" />
+            Banana Talk
         </div>
     </nav>
 
-    <div>
-        Convert your normal text to minion text
-    </div>
-
-    <section>
-        <textarea placeholder="enter your text here"></textarea>
-        <button>convert</button>
+    <section class="section">
+        <div class="centered-container">
+            Convert your normal text to minion text
+        </div>
     </section>
 
-    <section>
-        <textarea></textarea>
+    <section class="section">
+        <textarea placeholder="enter your text here"></textarea>
+        <div class="centered-container">
+            <button>convert</button>
+        </div>
+
+        <div class="centered-container">
+            translated text will come here👇
+        </div>
+        <textarea class="translate-output">
+        </textarea>
     </section>
 
     <footer>
-        <p>
-            Are you a fan on minions? Did you know  the  gibberish they say is an actual language?
-. Yes!! you read that right, it’s called Minionese!  Use this translator to convert your 
-english text to Minionese.
-        </p>
+        <div class="centered-container">
+            <h2>About</h2>
+            <p>
+                Are you a fan on minions? Did you know the gibberish they say is an actual language?
+                . Yes!! you read that right, it’s called Minionese! Use this translator to convert your
+                english text to Minionese.
+            </p>
+        </div>
     </footer>
 </body>
+
 </html>
