@@ -1,1 +1,0 @@
-console.log("Script is working from another file")
