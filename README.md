@@ -1,5 +1,7 @@
-# Banana Talk
+# 🍌Banana Talk
 
-Convert your normal english text to minion language.
+### Convert your normal english text to minion language.
 
-Currently working on adding javascript to make the web app do what it is supposed to do.
+Check it out here : https://talkinminion.netlify.app/
+
+![Live Screenshot](/images/webappss.png)
