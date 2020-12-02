@@ -4,4 +4,4 @@
 
 Check it out here : https://talkinminion.netlify.app/
 
-![Live Screenshot](/images/webappss.jpg)
+![Live Screenshot](/images/webappss.JPG)
